@@ -74,7 +74,6 @@ def all_supplies_in_holidays(holiday_hash)
   new_array = []
     new_array = holiday_hash.map do |season|
       season.to_s
-      binding.pry
     end
     new_array
 
