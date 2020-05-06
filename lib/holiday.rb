@@ -74,6 +74,9 @@ def all_supplies_in_holidays(holiday_hash)
   season_to_string = []
     season_to_string = holiday_hash.map do |season, holiday|
       season.to_s
+    holiday_to_string = []
+      holiday_to_string = season_to_string. map do |holiday|
+        holiday.to_s
     end
   puts season_to_string
 
