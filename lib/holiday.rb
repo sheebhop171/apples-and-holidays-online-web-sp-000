@@ -64,9 +64,16 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  binding.pry
-  holiday_hash.collect do |key, value|
-    key.to_s, value.to_s
+
+  # convert hash key symbols to strings 
+  # use bang operator to change array 
+  # capitaize first letters 
+  # split string into array
+  # iterate over array to capitalize 
+  # join array back into string 
+  
+  new_hash = Hash.new
+  holiday_hash.each{ |k,v| new_hash[k.to_s] = v }
 
     #holiday_hash.each do |key, value|
     #  key.to_s
