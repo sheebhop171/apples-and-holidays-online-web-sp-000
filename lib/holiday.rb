@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   #binding.pry
 
-  new_hash = holiday_hash.collect{ |key,value| [key.to_s, v.to_s]}.to_h
+  new_hash = holiday_hash.collect{ |key,value| [key.to_s, value.to_s]}.to_h
 
     #holiday_hash.each do |key, value|
     #  key.to_s
