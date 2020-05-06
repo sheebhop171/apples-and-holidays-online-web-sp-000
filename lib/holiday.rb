@@ -73,10 +73,10 @@ def all_supplies_in_holidays(holiday_hash)
   # join array back into string
 
       holiday_hash.map do |season, holiday|
-      puts season.split.to_s.capitalize!
+      puts season.to_s.capitalize!
         season.map do |holiday, data|
-          puts holiday.split.to_s.captitalize!
-
+          puts holiday.to_s.captitalize!
+          
     end
   end
 end
