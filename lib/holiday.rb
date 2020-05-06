@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
 
   new_hash = Hash.new
   holiday_hash.each { |k,v| new_hash[k.to_s] = v }
-
+  binding.pry
     #holiday_hash.each do |key, value|
     #  key.to_s
 end
