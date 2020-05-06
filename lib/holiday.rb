@@ -75,7 +75,6 @@ def all_supplies_in_holidays(holiday_hash)
     season_to_string = holiday_hash.map do |season, holiday|
       puts season.to_s.capitalize!
     end
-  puts season_to_string
 
 end
 
