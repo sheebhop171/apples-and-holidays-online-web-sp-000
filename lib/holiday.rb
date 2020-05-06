@@ -78,6 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_to_string = season_to_string. map do |holiday|
         holiday.to_s
     end
+  end
   puts holiday_to_string
 
 end
