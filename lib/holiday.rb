@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  binding.pry
+  #binding.pry
 
   new_hash = a.collect{|key,value| [key.to_s, v.to_s]}.to_h
 
