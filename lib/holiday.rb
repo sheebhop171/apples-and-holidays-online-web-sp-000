@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
       puts season.to_s..split.capitalize!
         season.map do |holiday, data|
           puts holiday.to_s.split.captitalize!
-          
+
     end
   end
 end
