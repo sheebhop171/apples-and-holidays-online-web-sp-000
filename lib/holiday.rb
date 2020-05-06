@@ -72,8 +72,8 @@ def all_supplies_in_holidays(holiday_hash)
   # iterate over array to capitalize
   # join array back into string
   new_array = []
-    new_array = holiday_hash.map.to_s do |season, holiday|
-
+    new_array = holiday_hash.map do |season, holiday|
+      new_array << season.to_s, holiday.to_s 
     end
   puts new_array
 
