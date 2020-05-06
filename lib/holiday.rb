@@ -68,9 +68,9 @@ def all_supplies_in_holidays(holiday_hash)
 
   new_hash = a.collect{|key,value| [key.to_s, v.to_s]}.to_h
 
-    holiday_hash.each do |key, value|
-      key.to_s
-    end
+    #holiday_hash.each do |key, value|
+    #  key.to_s
+    #end
 end
 
 def all_holidays_with_bbq(holiday_hash)
