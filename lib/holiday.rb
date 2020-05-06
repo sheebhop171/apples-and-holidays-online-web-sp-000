@@ -78,7 +78,6 @@ def all_supplies_in_holidays(holiday_hash)
           puts holiday.to_s.captitalize!
     end
   end
-  binding.pry
 end
 
 def all_holidays_with_bbq(holiday_hash)
