@@ -71,10 +71,9 @@ def all_supplies_in_holidays(holiday_hash)
   # split string into array
   # iterate over array to capitalize
   # join array back into string
-
+  binding.pry
   new_hash = Hash.new
   holiday_hash.each { |k,v| new_hash[k.to_s] = v }
-  binding.pry
     #holiday_hash.each do |key, value|
     #  key.to_s
 end
