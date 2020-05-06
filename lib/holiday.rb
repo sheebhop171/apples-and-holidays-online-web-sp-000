@@ -65,16 +65,19 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
-  # convert hash key symbols to strings
-  # use bang operator to change array
+  # convert hash key symbols to strings in new array
   # capitaize first letters
+  # use bang operator to change array
   # split string into array
   # iterate over array to capitalize
   # join array back into string
-  new_hash = Hash.new
-  holiday_hash.each { |k,v| new_hash[k.to_s] = v }
-    #holiday_hash.each do |key, value|
-    #  key.to_s
+  new_array = []
+    holiday_hash.each do |season, holiday|
+      season.to_s, holiday.to_s
+      new_array << "season", "holiday"
+    end
+
+
 end
 
 def all_holidays_with_bbq(holiday_hash)
