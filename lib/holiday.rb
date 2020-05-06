@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # join array back into string
 
   new_hash = Hash.new
-  holiday_hash.each{ |k,v| new_hash[k.to_s] = v }
+  holiday_hash.each { |k,v| new_hash[k.to_s] = v }
 
     #holiday_hash.each do |key, value|
     #  key.to_s
