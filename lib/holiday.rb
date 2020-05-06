@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
       season.to_s
       binding.pry
     end
-
+    new_array
 
 end
 
