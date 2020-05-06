@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
   # join array back into string
   new_array = []
       holiday_hash.map do |season, holiday|
-      new_array << season.to_s, holiday.to_s
+      new_array << "season.to_s", "holiday.to_s"
     end
   puts new_array
 
